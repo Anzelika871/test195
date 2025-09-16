@@ -1,0 +1,3 @@
+array = [4, 3, 32, 8, -7]
+min = array.index(min(array))
+print({min})
