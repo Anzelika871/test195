@@ -1,0 +1,6 @@
+n = int(input())
+c = input()
+if c == '1':
+    print(n*1024)
+elif c == '2':
+    print(n/1024)
