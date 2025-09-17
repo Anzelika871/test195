@@ -1,3 +1,0 @@
-meters = float(input(""))
-cantimetrs = meters * 100
-print(f"Distance in centimeters:{cantimetrs}")
