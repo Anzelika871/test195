@@ -1,8 +1,0 @@
-a, b, c = map(int, input().split())
-if (a>b and a>c):
-    m=a
-if (b>a and b>c):
-    m=b
-if (c>a and c>b):
-    m=c
-print(m)
