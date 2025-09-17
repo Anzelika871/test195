@@ -1,5 +1,0 @@
-a = int(input())
-s = a
-for i in range(a,500):
-    s = i + s
-print(s)
