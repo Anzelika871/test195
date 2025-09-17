@@ -1,5 +1,0 @@
-m, k = map(float, input().split())
-if ((k*1000)<m):
-    print(k*1000)
-else:
-    print(m)
