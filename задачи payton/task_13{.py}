@@ -1,0 +1,6 @@
+import datetime 
+name = input("what is your name? ") 
+age = int(input("how old are you? ")) 
+today = datetime.date.today()  
+year = (today.year - age) + 100  
+print(f"{name}, You will be 100 years old in {year} ")

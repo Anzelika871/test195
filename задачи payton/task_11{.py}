@@ -1,0 +1,3 @@
+y = [4, 3, 32, 8, -7]
+min = y.index(min(y))
+print({min})

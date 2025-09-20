@@ -1,0 +1,7 @@
+x = int(input())
+year = int(input())
+day = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+if (year % 4 == 0 and year % 100 != 0):
+    day[-1] = 29
+print(day[x-1])
+

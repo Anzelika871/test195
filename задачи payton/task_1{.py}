@@ -1,0 +1,3 @@
+meter = float(input(""))
+cantimetr = meter * 100
+print(f"Distance in centimeters:{cantimetr}")

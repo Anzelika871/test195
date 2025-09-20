@@ -1,0 +1,11 @@
+day = int(input())
+number = int(input())
+print("mo ty we th fr se su")
+x = "   " * (day - 1)
+for number in range(1, number + 1):
+    x+= f"{number:2d}"
+    if (day - 1 + number) % 7 == 0:
+        print(x)
+        x = ""
+if x:
+    print(x)
